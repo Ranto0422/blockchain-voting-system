@@ -12,7 +12,7 @@ The Blockchain-Based Voting System is a secure and transparent approach to condu
 
 ## Prerequisites
 - Ubuntu install in your machine.
-- [Node.js](<../../how to install node js.md>) (version 18 and above) installed on your machine
+- [Node.js](<  how to install node js.md>) (version 18 and above) installed on your machine
 - Hardhat for Ethereum smart contract development
 - Account on Alchemy  or Infura for API 
 - Metamask account and their browser extension installed on your browser
@@ -23,7 +23,7 @@ The Blockchain-Based Voting System is a secure and transparent approach to condu
 ```sh
 mkdir voting-dapp && voting-dapp
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 09-05-40.png>)
+![Image](<voting src/Screenshot from 2024-04-20 09-05-40.png>)
 
 
 #### Step 2
@@ -31,7 +31,7 @@ mkdir voting-dapp && voting-dapp
 ```sh
 npm init
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 09-09-29.png>)
+![Image](< voting src/Screenshot from 2024-04-20 09-09-29.png>)
 
 
 #### Step 3
@@ -92,7 +92,7 @@ nano package.json
 ```
 npm install --save-dev hardhat
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 09-17-14.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 09-17-14.png>) 
 
 
 #### Step 5
@@ -100,7 +100,7 @@ npm install --save-dev hardhat
 ```sh
 npx hardhat init
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 09-24-52.png>)
+![Image](< voting src/Screenshot from 2024-04-20 09-24-52.png>)
 
 
 #### Step 6
@@ -152,7 +152,7 @@ CONTRACT_ADDRESS = ""
 ```sh
 cd contracts
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 09-27-26.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 09-27-26.png>) 
 
 **Voting.sol**
 ```solidity
@@ -228,7 +228,7 @@ constructor(string[] memory _candidateNames, uint256 _durationInMinutes) {
 ```sh
 npx hardhat compile
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 09-28-26.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 09-28-26.png>) 
 
 
 #### Step 10
@@ -372,7 +372,7 @@ npx hardhat test
 ```sh
 mkdir scripts && cd scripts
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 10-07-41.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 10-07-41.png>) 
 ```sh 
 nano depoly.js
 ```
@@ -401,7 +401,7 @@ main()
 ```sh
 npx hardhat run --network sepolia scripts/depoly.js
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 11-49-34.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 11-49-34.png>) 
 
 
 #### Step 13
@@ -409,8 +409,8 @@ npx hardhat run --network sepolia scripts/depoly.js
 ```sh
 npx create-react-app voting-system
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 12-11-41.png>) 
-![Image](<../voting src/Screenshot from 2024-04-20 12-12-08.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 12-11-41.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 12-12-08.png>) 
 
 
 #### Step 14
@@ -418,18 +418,18 @@ npx create-react-app voting-system
 ```sh
 npm start
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 12-13-04.png>) 
-![Image](<../voting src/Screenshot from 2024-04-20 12-14-03.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 12-13-04.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 12-14-03.png>) 
 
 **if every thing is alright you will see this**
-![Image](<../voting src/Screenshot from 2024-04-20 12-14-13.png>)
+![Image](< voting src/Screenshot from 2024-04-20 12-14-13.png>)
 
 #### Step 15
 - Now install ethers.js library for you project.
 ```sh
 npm install ethers@5.7.1
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 12-33-33.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 12-33-33.png>) 
 
 
 #### Step 16
@@ -796,14 +796,14 @@ export {contractAbi, contractAddress};
 ```sh
 npm serve build
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 14-05-32.png>) 
-![Image](<../voting src/Screenshot from 2024-04-20 14-09-20.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-05-32.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-09-20.png>) 
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
 server -s build
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 14-04-32.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-04-32.png>) 
 
 
 ## Installation By Github
@@ -846,49 +846,49 @@ export {contractAbi, contractAddress};
 ```sh
 npm serve build
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 14-05-32.png>) 
-![Image](<../voting src/Screenshot from 2024-04-20 14-09-20.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-05-32.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-09-20.png>) 
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
 npm install -g server && server -s build
 ```
-![Image](<../voting src/Screenshot from 2024-04-20 14-04-32.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-04-32.png>) 
 
 
 ### **Image Of Result**
 **1.First Interface**
-![Image](<../voting src/Screenshot from 2024-04-20 12-21-05.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 12-21-05.png>) 
 
 **2.Login Into metamask**
-![Image](<../voting src/Screenshot from 2024-04-20 13-58-16.png>)
+![Image](< voting src/Screenshot from 2024-04-20 13-58-16.png>)
 
 **3.Start Voting**
-![Image](<../voting src/Screenshot from 2024-04-20 14-10-41.png>)
+![Image](< voting src/Screenshot from 2024-04-20 14-10-41.png>)
 
 **4.Voting**
-![Image](<../voting src/Screenshot from 2024-04-20 14-10-50.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-10-50.png>) 
 
 **5.Voted**
-![Image](<../voting src/Screenshot from 2024-04-20 14-11-32.png>) 
+![Image](< voting src/Screenshot from 2024-04-20 14-11-32.png>) 
 
 ### **Image of Metamask during voting**
 <div>
-  <img src="../voting src/Screenshot from 2024-04-20 14-12-49.png" alt="Image" /> 
-  <img src="../voting src/Screenshot from 2024-04-20 14-12-57.png" alt="Image" /> 
-  <img src="../voting src/Screenshot from 2024-04-20 14-13-19.png" alt="Image" />
-  <img src="../voting src/WhatsApp Image 2024-04-21 at 11.51.54_533e58a7.jpg" alt="Image" />
-  <img src="../voting src/WhatsApp Image 2024-04-21 at 11.51.54_bb403983.jpg" alt="Image" />
+  <img src=" voting src/Screenshot from 2024-04-20 14-12-49.png" alt="Image" /> 
+  <img src=" voting src/Screenshot from 2024-04-20 14-12-57.png" alt="Image" /> 
+  <img src=" voting src/Screenshot from 2024-04-20 14-13-19.png" alt="Image" />
+  <img src=" voting src/WhatsApp Image 2024-04-21 at 11.51.54_533e58a7.jpg" alt="Image" />
+  <img src=" voting src/WhatsApp Image 2024-04-21 at 11.51.54_bb403983.jpg" alt="Image" />
 </div> 
 
 ### **Image of Alchemy(Api request)**
 <div>
-<img src="../voting src/Screenshot 2024-04-20 143345.jpg" alt="Image" />
-<img src="../voting src/Screenshot 2024-04-20 143431.jpg" alt="Image" /> 
-<img src="../voting src/Screenshot 2024-04-20 143511.jpg" alt="Image" /> 
-<img src="../voting src/Screenshot 2024-04-20 143533.jpg" alt="Image" /> 
-<img src="../voting src/Screenshot 2024-04-20 143620.jpg" alt="Image" /> 
-<img src="../voting src/Screenshot 2024-04-20 143726.jpg" alt="Image" />
+<img src=" voting src/Screenshot 2024-04-20 143345.jpg" alt="Image" />
+<img src=" voting src/Screenshot 2024-04-20 143431.jpg" alt="Image" /> 
+<img src=" voting src/Screenshot 2024-04-20 143511.jpg" alt="Image" /> 
+<img src=" voting src/Screenshot 2024-04-20 143533.jpg" alt="Image" /> 
+<img src=" voting src/Screenshot 2024-04-20 143620.jpg" alt="Image" /> 
+<img src=" voting src/Screenshot 2024-04-20 143726.jpg" alt="Image" />
 </div> 
  
 
