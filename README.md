@@ -17,11 +17,68 @@ The Blockchain-Based Voting System is a secure and transparent approach to condu
 - Account on Alchemy  or Infura for API 
 - Metamask account and their browser extension installed on your browser
 
+## Few Keywords
+**Web3 wallet**::Web3 wallets are a key component of the joing decentralized internet, as they provide users with the tools and capabilities to take control of their digital identities, assets, and participation in the evolving Web3 ecosystem
+- A crypto wallet has three main components:
+Public Key: This links to an address where you can send and receive transactions. 
+- Private Key: Must be kept secret and undisclosed. This is used for signing new transactions and enables access to funds.
+- Seed Phrase: Used to generate multiple private keys. Act as a root key, giving access to the rest of the keys and addresses in a user’s wallet. This can also create new private keys.
+### **Hot Wallets V/s Cold wallets**
+
+![Imaage](https://www.alchemy.com/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F105223%2F1705717348-hot-vs-cold-wallets.png&w=1080&q=75)
+
+- Hot Wallets are generally referred to as software wallets because they are hosted on devices that have access to the internet and cryptocurrency network. They are more convenient than other types of wallets due to their ability to store, send, receive, and view tokens. Hot wallets are considered the highest in utility when it comes to Web3 wallets.
+
+- Cold wallets tend to be a safer alternative to store cryptocurrencies because of no connection to the internet. This is because there is a physical medium to store the keys offline. This method makes cold wallets increasingly resistant to hackers, which is known as cold storage.
+**Metamask**::MetaMask is a web3 crypto wallet that allows users to store and swap cryptocurrencies, interact with the Ethereum blockchain ecosystem, and host a growing array of decentralized applications (dApps)
+**Sepolia**::The Sepolia testnet is a Proof-of-Stake (PoS) testnet that developers can use to deploy and test their smart contracts for free.
+**RPC provider**::RPC stand for  Remote Procedure Call.An RPC allows you to communicate and interact with that blockchain.
+**The graph**::The Graph is an indexing protocol for organizing and accessing data from blockchains and storage networks. It allows developers to search, find, publish, and use the public data they need to build decentralized applications.
+
+## List of Web3 Wallet
+  1. MetaMask
+  2. Coinbase Wallet
+  3. Trust Wallet
+  4. Zerion
+  5. ZenGo
+  6. Argent
+  7. Rainbow
+  8. Exodus
+  9. Phantom
+  10. OKX Wallet
+
+## List of RPC Providers
+  1. Alchemy
+  2. Syndica
+  3. Ankr
+  4. Quicknode
+  5. GenesysGO
+  6. Infura
+  7. Lava Network
+  8. GetBlock
+  9. Blast
+  10. RockX
+
+
+## Tools we will use:
+![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%202024-04-23%20220146.jpg)
+
+ - Testnet: Sepolia
+ - Web3 API: Alchemy
+ - Frontend: ReactJS.
+ - Backend: Solidity
+ - Unit Testing: chai
+ - web Interface: ether.js
+
+## Architecture of dapps
+![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%202024-04-26%20081128.jpg)
+
+
 ## Installation By Itself
 #### Step 1
 - Create a new repository
 ```sh
-mkdir voting-dapp && voting-dapp
+mkdir voting-dapp && cd voting-dapp
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2009-05-40.png)
 
@@ -57,7 +114,7 @@ nano package.json
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "@babel/plugin-proposal-private-property-in-object": "^7.22.5"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -139,12 +196,16 @@ module.exports = {
 ```
 
 #### Step 7
-- Create .env file in which you can add following details.
-```
-API_URL = "your api"
-PRIVATE_KEY = "metamask private key"
-CONTRACT_ADDRESS = ""
-```
+- Set all value of variable.
+
+
+
+
+
+
+
+
+
 
 
 #### Step 8
@@ -818,18 +879,23 @@ git clone https://github.com/16ratneshkumar/blockchain-voting-system.git
 cd blockchain-voting-system
 ```
 ### Step 3
+- Now we can install Hardhat:
+```
+npm install --save-dev hardhat
+```
+### Step 4
 - Now create .env file with this details.
 ```
 API_URL = "your api"
 PRIVATE_KEY = "metamask private key"
 CONTRACT_ADDRESS = ""
 ```
-### Step 4
+### Step 5
 - After that deploy you project with following cmd you will get a contract address paste it in your .env file.
 ```sh
 npx hardhat run --network sepolia scripts/depoly.js
 ```
-### Step 5
+### Step 6
 - go to src/Constant folder and edit constant.js file with your Contract Address and Contract Abi.
 ```js
 const contractAddress = "your contract address";
@@ -840,7 +906,7 @@ const contractAbi = your abi ;
 export {contractAbi, contractAddress};
 
 ```
-### Step 6
+### Step 7
 - Your project is done.Its time to run your project.
 - Before run your project you have to bulid your project .
 ```sh
