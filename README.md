@@ -456,7 +456,7 @@ main()
 #### Step 12
 - After that deploy you project with following cmd you will get a contract address paste it in your .env file.
 ```sh
-npx hardhat run --network sepolia scripts/depoly.js
+npx hardhat run --network sepolia scripts/deploy.js
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2011-49-34.png) 
 
@@ -894,7 +894,7 @@ npx hardhat compile
 ### Step 5
 - After that deploy you project with following cmd you will get a contract address paste it in your .env file.
 ```sh
-npx hardhat run --network sepolia scripts/depoly.js
+npx hardhat run --network sepolia scripts/deploy.js
 ```
 ### Step 6
 - go to src/Constant folder and edit constant.js file with your Contract Address and Contract Abi.
@@ -918,7 +918,7 @@ npm run build
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
-npm install -g server && server -s build
+npm install -g serve && serve -s build
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-04-32.png) 
 
