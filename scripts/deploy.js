@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 267ce34 (update)
 async function main() {
   const Voting = await ethers.getContractFactory("Voting");
 
@@ -15,6 +18,7 @@ main()
    console.error(error);
    process.exit(1);
  });
+<<<<<<< HEAD
 =======
 async function main() {
   const Voting = await ethers.getContractFactory("Voting");
@@ -33,3 +37,5 @@ main()
    process.exit(1);
  });
 >>>>>>> 1cdef9560d9b11d3a086b4f27d87ba1a74e5fc14
+=======
+>>>>>>> parent of 267ce34 (update)

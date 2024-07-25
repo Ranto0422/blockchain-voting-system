@@ -886,9 +886,14 @@ npm install --save-dev hardhat
 ### Step 4
 - Now create .env file with this details.
 ```
-API_URL = "your api"
-PRIVATE_KEY = "metamask private key"
-CONTRACT_ADDRESS = ""
+npx hardhat vars set ALCHEMY_API_KEY <value>
+```
+```
+npx hardhat vars set SEPOLIA_PRIVATE_KEY
+```
+- Then compile the smart contract
+```
+npx hardhat compile
 ```
 ### Step 5
 - After that deploy you project with following cmd you will get a contract address paste it in your .env file.
