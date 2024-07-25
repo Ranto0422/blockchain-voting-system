@@ -858,7 +858,7 @@ npm run build
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
-npm install -g server && serve -s build
+npm install -g serve && serve -s build
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-04-32.png) 
 
