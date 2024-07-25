@@ -882,7 +882,7 @@ npm install --save-dev hardhat
 ### Step 4
 - Now set api and sepolia private key using following cmd .
 ```
-npx hardhat vars set ALCHEMY_API_KEY <value>
+npx hardhat vars set ALCHEMY_API_KEY
 ```
 ```
 npx hardhat vars set SEPOLIA_PRIVATE_KEY
