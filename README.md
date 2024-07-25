@@ -855,14 +855,14 @@ export {contractAbi, contractAddress};
 - Your project is done.Its time to run your project.
 - Before run your project you have to bulid your project .
 ```sh
-npm serve build
+npm run build
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-05-32.png) 
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-09-20.png) 
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
-npm install -g server && serve -s build
+npm install -g serve && serve -s build
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-04-32.png) 
 
@@ -889,7 +889,7 @@ npm install --save-dev hardhat
 npx hardhat vars set ALCHEMY_API_KEY <value>
 ```
 ```
-npx hardhat vars set SEPOLIA_PRIVATE_KEY
+npx hardhat vars set SEPOLIA_PRIVATE_KEY <value>
 ```
 - Then compile the smart contract
 ```
@@ -915,7 +915,7 @@ export {contractAbi, contractAddress};
 - Your project is done.Its time to run your project.
 - Before run your project you have to bulid your project .
 ```sh
-npm serve build
+npm run build
 ```
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-05-32.png) 
 ![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Hardhat/voting%20src/Screenshot%20from%202024-04-20%2014-09-20.png) 
