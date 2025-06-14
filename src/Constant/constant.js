@@ -1,6 +1,9 @@
-const contractAddress = "0x59Ca644803147679aD590aEaeB5a8682096043f9";
+const contractAddress = "0x52c7f2d413848df47ba4Cc6320D4251262b63fFC";
 
-const contractAbi = [
+
+
+export const VOTING_ABI = [
+
     {
       "inputs": [
         {
@@ -164,5 +167,9 @@ const contractAbi = [
       "type": "function"
     }
   ];
+export const VOTING_CONTRACTS = {
+  President: "0x794635b9906F685e9E2515411642588cf4C76238",
+  VicePresident: "0x43CC9e8AcbDcF85d6Ed8315BCE53aAFe4C36eD83",
+  Secretary: "0x3634d0F66162D82004334e476Ba72161438A920c"
+};
 
-export {contractAbi, contractAddress};
